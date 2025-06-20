@@ -1,0 +1,13 @@
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.dark-mode {
+    background-color: #111;
+    color: #eee;
+}
+
+#preview{
+    display: none;
+}

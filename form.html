@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form id="feedbackForm">
+            <input type="text" id="name" placeholder="Your name" /><br /><br />
+            <input
+                type="email"
+                id="email"
+                placeholder="Your email"
+            /><br /><br />
+            <textarea id="message" placeholder="Your feedback"></textarea
+            ><br /><br />
+            <button type="submit">Submit</button><br /><br />
+        </form>
+
+        <div id="preview">
+            <h3>Live Preview:</h3>
+            <p><strong>Name:</strong> <span id="previewName"></span></p>
+            <p><strong>Feedback:</strong> <span id="previewMessage"></span></p>
+            <p><strong>Total character count:</strong> <span id="previewLatter"></span></p>
+        </div>
+
+        <h1>Feedbacks</h1>
+        <ul id="feedbackList"></ul>
+
+        <button id="toggleTheme">switched to dark</button>
+
+        <script src="form.js"></script>
+    </body>
+</html>
